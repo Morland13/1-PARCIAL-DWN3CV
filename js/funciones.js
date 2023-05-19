@@ -39,7 +39,7 @@ function displayWeather(data) {
   const elementoTempmin = toCelsius(data.main.temp_min);
   const elementoPresion = toCelsius(data.main.pressure);
   const elementoSensacion = toCelsius(data.main.feels_like);
-  const elementoMapa = `https://api.tomtom.com/map/1/staticimage?key=${apiMap}&zoom=9&center=${data.coord.lon},${data.coord.lat}&format=jpg&layer=basic&style=main&width=1000&height=200&view=Unified&language=en-GB`;
+  const elementoMapa = `https://api.tomtom.com/map/1/staticimage?key=${apiMap}&zoom=9&center=${data.coord.lon},${data.coord.lat}&format=jpg&layer=basic&style=main&width=900&height=300&view=Unified&language=en-GB`;
   
 console.log(elementoMapa);
 
@@ -83,7 +83,7 @@ localStorage.clear();
 //MUESTRO LOCALSTORAGE
 
 var ultimaBusqueda = localStorage.getItem("xxx");
-elementoUltima.innerHTML = `<p style = "height: 100%; width: 100%;" class = "p-3 m-auto text-center">Última búsqueda: ${ultimaBusqueda}</p>`;
+elementoUltima.innerHTML = `<p class = "p-3 m-auto text-center">Última búsqueda: ${ultimaBusqueda}</p>`;
 elementoBoton.addEventListener('click', laciudad);
 
 

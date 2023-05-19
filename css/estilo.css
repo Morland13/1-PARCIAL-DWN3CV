@@ -46,6 +46,13 @@ body {
     padding: 50px;
   }
 
+  .img_map img{
+    width: 100%;
+    align-items: center;
+  }
+
+
+
   h2{
     text-align: center;
     margin: auto;
