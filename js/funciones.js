@@ -46,7 +46,7 @@ console.log(elementoMapa);
   document.querySelector(".city").innerText = "Clima en la ciudad de " + elementoCity;
   document.querySelector(".temp").innerText = "Temperatura " + elementoTemp.toFixed(1) + "°C";
   document.querySelector(".weather").innerText = "Se observa " + elementoWeather;
-  document.querySelector(".wind").innerText = "Viento de " + elementoWind + " Km/h";
+  document.querySelector(".wind").innerText = "Viento de " + elementoWind + " m/s";
   document.querySelector(".humidity").innerText = "Humedad del " + elementoHumidity + "%";
   document.querySelector(".temp_max").innerText = "Temperatura máxima " + elementoTempmax.toFixed(1) + "°C";
   document.querySelector(".temp_min").innerText = "Temperatura mínima " + elementoTempmin.toFixed(1) + "°C";
