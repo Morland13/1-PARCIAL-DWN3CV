@@ -1,0 +1,116 @@
+/* Paleta de colores
+
+https://coolors.co/004da4-1e2226-0d6efc-ffffff-56585a
+
+*/
+
+body {
+    background-image: url('../img/landscape.jpg');
+    background-attachment: fixed; 
+    background-size: cover;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .laciudad{
+    width: 70%;
+    height: 30%;
+    box-shadow: 0 0 4rem 4rem rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+    position: relative;
+    background: inherit;
+    overflow: hidden;
+    margin: auto;
+    padding: 50px;
+    margin-top: 0.5em;
+    display: contents;
+  }
+
+  .logo img{
+    margin: auto;
+    display: flex;
+    width: 13%;
+  }
+  
+  .centro {
+    width: 70%;
+    height: 30%;
+    box-shadow: 0 0 4rem 4rem rgba(0, 0, 0, 0.1); 
+    border-radius: 5px;
+    position: relative;
+    background: inherit;
+    overflow: hidden;
+    margin: auto;
+    padding: 50px;
+  }
+
+  h2{
+    text-align: center;
+    margin: auto;
+    padding: 0.5em;
+    font-weight: bolder;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+
+  h3{
+    text-align: center;
+    font-size:medium;
+
+  }
+
+  form{
+    align-items: center;
+    padding: 1em;
+    font-size: larger;
+  }
+
+  form p{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+  }
+
+  .laciudad:empty{
+    display:none;
+  }
+
+  input{
+    align-items: center;
+    padding: 1em;
+  }
+
+ .boton{
+    margin-top: 1.8em;
+  }
+
+  [type="submit"]{
+    padding: 0.5em;
+    border-radius: 0.5em;
+    border: thin solid #8a878d;
+    font-weight: bold;
+    background-color: #2a282e;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.laciudad .h2 .mapa .img{
+  border-radius: 5px;
+}
+
+hr{
+    border: thin solid black;
+}
+
+[type="submit"]:hover{
+    background-color: #034ea1;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    margin: 0;
+  }
